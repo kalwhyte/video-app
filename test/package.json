@@ -1,0 +1,37 @@
+{
+  "name": "video-app",
+  "version": "1.0.0",
+  "description": "A chrome extension that allows you to take notes while watching videos.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=test mocha"
+  },
+  "author": "kalwhyte",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.11.0"
+  },
+  "devDependencies": {
+    "@deepgram/sdk": "2.4.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "express-sanitizer": "^1.0.5",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "4.0.0",
+    "fs": "0.0.1-security",
+    "method-override": "^3.0.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^5.13.13",
+    "morgan": "^1.9.1",
+    "multer": "1.4.5-lts.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.11.3",
+    "supertest": "^6.3.3"
+  }
+}
